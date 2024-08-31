@@ -1,17 +1,26 @@
-import { View, Text } from 'react-native'
+import { View } from 'react-native'
 import React from 'react'
+import ButtonComponent from '../components/ButtonComponent'
+import TextComponent from '../components/TextComponent'
+import ViewComponent from '../components/ViewComponent'
 import Part1 from '../components/Part1'
-import Part2 from '../components/Part2'
-import Part3 from '../components/Part3'
-import Part4 from '../components/Part4'
-
+import Expressions from '../components/Expressions'
+import InlineStyles from '../components/InlineStyles'
+import InternalStyles from '../components/InternalStyles'
+import ExternalStyles from '../components/ExternalStyles'
 const index = () => {
   return (
     <View>
-      <Part1 />
-      <Part2 />
-      <Part3 />
-      <Part4 />
+      {/*
+      <TextComponent />
+      <ButtonComponent />
+      <Expressions/>
+      <Part1/>
+      <ViewComponent/>
+       */}
+      <InlineStyles/>
+      <InternalStyles/>
+      <ExternalStyles/>
     </View>
   )
 }
