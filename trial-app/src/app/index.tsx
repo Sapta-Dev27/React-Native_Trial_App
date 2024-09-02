@@ -9,6 +9,7 @@ import InlineStyles from '../components/InlineStyles'
 import InternalStyles from '../components/InternalStyles'
 import ExternalStyles from '../components/ExternalStyles'
 import StylesChallenges from '../components/StylesChallenge'
+import FlatList from '../components/FlatList'
 const index = () => {
   return (
     <View>
@@ -21,8 +22,9 @@ const index = () => {
       <InlineStyles/>
       <InternalStyles/>
       <ExternalStyles/>
-      */}
       <StylesChallenges/>
+        */}
+      <FlatList />
     </View>
   )
 }
