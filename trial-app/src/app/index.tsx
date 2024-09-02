@@ -8,6 +8,7 @@ import Expressions from '../components/Expressions'
 import InlineStyles from '../components/InlineStyles'
 import InternalStyles from '../components/InternalStyles'
 import ExternalStyles from '../components/ExternalStyles'
+import StylesChallenges from '../components/StylesChallenge'
 const index = () => {
   return (
     <View>
@@ -17,10 +18,11 @@ const index = () => {
       <Expressions/>
       <Part1/>
       <ViewComponent/>
-       */}
       <InlineStyles/>
       <InternalStyles/>
       <ExternalStyles/>
+      */}
+      <StylesChallenges/>
     </View>
   )
 }
