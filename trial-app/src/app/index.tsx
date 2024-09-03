@@ -11,6 +11,8 @@ import ExternalStyles from '../components/ExternalStyles'
 import StylesChallenges from '../components/StylesChallenge'
 import FlatList from '../components/FlatList'
 import FlatListChallenge from '../components/FlatListChallenge'
+import PropsIndex from '../components/PropsIndex'
+import Props from '../components/Props'
 const index = () => {
   return (
     <View>
@@ -25,8 +27,9 @@ const index = () => {
       <ExternalStyles/>
       <StylesChallenges/>
       <FlatList />
-          */}
       <FlatListChallenge/>
+      */}
+      <PropsIndex/>
     </View>
   )
 }
