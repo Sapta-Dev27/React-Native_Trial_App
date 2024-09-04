@@ -17,7 +17,7 @@ import Conditional from '../components/ConditionalRendering'
 import Conditional2 from '../components/Conditional02'
 import Conditional03 from '../components/ConditionalTernary'
 import  UseState01 from '../components/UseStatehook01' 
-
+import UseState02 from '../components/UseStateHook02'
 const index = () => {
   return (
     <View>
@@ -37,8 +37,9 @@ const index = () => {
       <Conditional />
       <Conditional2/>
       <Conditional03/>
+      <UseState01/>
        */}
-       <UseState01/>
+       <UseState02/>
     </View>
   )
 }
