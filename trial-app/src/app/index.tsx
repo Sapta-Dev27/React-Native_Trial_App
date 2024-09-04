@@ -16,6 +16,8 @@ import Props from '../components/Props'
 import Conditional from '../components/ConditionalRendering'
 import Conditional2 from '../components/Conditional02'
 import Conditional03 from '../components/ConditionalTernary'
+import  UseState01 from '../components/UseStatehook01' 
+
 const index = () => {
   return (
     <View>
@@ -34,8 +36,9 @@ const index = () => {
       <PropsIndex/>
       <Conditional />
       <Conditional2/>
-      */}
       <Conditional03/>
+       */}
+       <UseState01/>
     </View>
   )
 }
