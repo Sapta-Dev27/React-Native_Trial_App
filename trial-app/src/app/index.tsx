@@ -13,6 +13,7 @@ import FlatList from '../components/FlatList'
 import FlatListChallenge from '../components/FlatListChallenge'
 import PropsIndex from '../components/PropsIndex'
 import Props from '../components/Props'
+import Conditional from '../components/ConditionalRendering'
 const index = () => {
   return (
     <View>
@@ -28,8 +29,9 @@ const index = () => {
       <StylesChallenges/>
       <FlatList />
       <FlatListChallenge/>
-      */}
       <PropsIndex/>
+        */}
+      <Conditional />
     </View>
   )
 }
