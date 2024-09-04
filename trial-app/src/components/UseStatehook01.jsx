@@ -20,7 +20,7 @@ const UseStatehook01 = () => {
          <Button style={Styles.buttonStyle}
          title='DecreaseValue'
          onPress={()=> setCounter(counter-1)}
-         />
+         /> 
          <Button 
          style={Styles.buttonStyle}
          title='Multiply By 10'
