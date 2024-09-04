@@ -22,7 +22,7 @@ const TernaryOperator = ( {isValid}) => {
 const ConditionalTernary = () => {
   return (
     <View>
-        <Text>Ternary Operator</Text>
+        <Text>Ternary Operator </Text>
          <TernaryOperator isValid={true} />
     </View>
   )
