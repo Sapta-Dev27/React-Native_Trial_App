@@ -23,7 +23,7 @@ const UseStateHook02 = () => {
           
           <Button
           title='Add One'
-          onPress={addOne} />
+          onPress={addOne} /> 
       
         
       
